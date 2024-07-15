@@ -20,5 +20,5 @@ set(SOURCE_FILES
         ./Header/CodeFinder.hpp
         ./Source/CodeFinder.cpp)
 
-add_executable(main ${SOURCE_FILES})
-target_link_libraries( main ${OpenCV_LIBS} )
+add_executable(qrcode ${SOURCE_FILES})
+target_link_libraries( qrcode ${OpenCV_LIBS} )
